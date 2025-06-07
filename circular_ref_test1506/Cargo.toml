@@ -1,0 +1,6 @@
+[package]
+name = "circular_ref_test1506"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
