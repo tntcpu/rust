@@ -5,5 +5,7 @@ fn main() {
         println!("here is a vector: {:?}", v);
     });
 
+    drop(v);
+
     handle.join().unwrap();
 }
