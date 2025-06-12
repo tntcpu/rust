@@ -1,7 +1,6 @@
 use crate::List::{Cons, Nil};
 use std::cell::RefCell;
 use std::rc::Rc;
-use std::result::IterMut;
 
 #[derive(Debug)]
 enum List {
@@ -10,10 +9,10 @@ enum List {
 }
 
 impl List {
-    fn tail(self) -> Option<&RefCell<Rc<List>> {
+    fn tail(&self) -> Option<&RefCell<Rc<List>>> {
         match self {
             Cons(_, item) => Some(item),
-            Nil => None
+            Nil => None,
         }
     }
 }
