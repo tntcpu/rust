@@ -1,1 +1,0 @@
-/Users/tntcpu/coding/projects/backend/rust/ch18-patterns-and-matching/named_variable1805/target/debug/named_variable1805: /Users/tntcpu/coding/projects/backend/rust/ch18-patterns-and-matching/named_variable1805/src/main.rs
