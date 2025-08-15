@@ -1,5 +1,5 @@
 [package]
-name = "concurrency_mutex_share16"
+name = "ch1904"
 version = "0.1.0"
 edition = "2024"
 
