@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/program_rust/ch02_tour/actix-gcd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/add/add_one/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/add/adder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/adder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/api_call_counter15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/backyard/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/blog1701/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/blog1702/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/borrowed/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/branches/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/background_color1801/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1827/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1828/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1829/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/for_loop1803/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/match_literals1804/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/message_enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/named_variable1805/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/while_let1802/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/ch1904/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/ch1905/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1901/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1902/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1903/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1904/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1905/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1906/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1908/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1909/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1910/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2001/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2006/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2009/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2010/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2011/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2012/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2014/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/circular_ref_test1506/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/closuretest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/closuretest2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_channel_test16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_counter_share_arc16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_mutex16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_join16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_move16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_new16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/custom_smart_pointer1502/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/iteratortest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/memory_leak15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/minigrep/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/my-project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/option/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/rc_refcell_pointer1505/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/rc_smart_pointer1503/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/rectangles/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/refcell_smart_pointer1504/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/restaurant-lib/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/shirtcolor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/smart_pointers15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/tree_node15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/the_book/tree_weak15/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/program_rust/ch02_tour/actix-gcd/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/add/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/adder/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/api_call_counter15/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/backyard/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/blog1701/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/blog1702/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/borrowed/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/branches/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/background_color1801/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1827/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1828/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/demo1829/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/for_loop1803/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/match_literals1804/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/message_enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/named_variable1805/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch18-patterns-and-matching/while_let1802/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/ch1904/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/ch1905/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1901/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1902/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1903/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1904/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1905/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1906/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1908/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1909/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch19-advanced-features/demo1910/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2001/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2006/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2009/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2010/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2011/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2012/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/ch20-web-server/demo2014/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/circular_ref_test1506/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/closuretest/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/closuretest2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_channel_test16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_counter_share_arc16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_mutex16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_join16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_move16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/concurrency_thread_new16/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/custom_smart_pointer1502/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/iteratortest/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/memory_leak15/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/minigrep/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/my-project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/option/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/rc_refcell_pointer1505/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/rc_smart_pointer1503/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/rectangles/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/refcell_smart_pointer1504/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/restaurant-lib/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/shirtcolor/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/smart_pointers15/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/tree_node15/target" />
+      <excludeFolder url="file://$MODULE_DIR$/the_book/tree_weak15/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
