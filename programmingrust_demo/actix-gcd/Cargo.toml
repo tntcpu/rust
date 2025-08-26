@@ -1,7 +1,7 @@
 [package]
 name = "actix-gcd"
 version = "0.1.0"
-authors = ["tntcpu@126.com"]
+authors = ["You <you@example.com>"]
 edition = "2018"
 
 # See more keys and their definitions at

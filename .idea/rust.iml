@@ -64,6 +64,8 @@
       <sourceFolder url="file://$MODULE_DIR$/the_book/smart_pointers15/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/the_book/tree_node15/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/the_book/tree_weak15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/program_rust/ch02_tour/mandelbrot/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programmingrust_demo/actix-gcd/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/program_rust/ch02_tour/actix-gcd/target" />
       <excludeFolder url="file://$MODULE_DIR$/the_book/add/target" />
       <excludeFolder url="file://$MODULE_DIR$/the_book/adder/target" />
@@ -125,6 +127,8 @@
       <excludeFolder url="file://$MODULE_DIR$/the_book/smart_pointers15/target" />
       <excludeFolder url="file://$MODULE_DIR$/the_book/tree_node15/target" />
       <excludeFolder url="file://$MODULE_DIR$/the_book/tree_weak15/target" />
+      <excludeFolder url="file://$MODULE_DIR$/program_rust/ch02_tour/mandelbrot/target" />
+      <excludeFolder url="file://$MODULE_DIR$/programmingrust_demo/actix-gcd/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
