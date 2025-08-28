@@ -1,16 +1,19 @@
-use text_colorizer::*;
+use regex::Regex;
 use std::env;
 use std::fs;
-use regex::Regex;
+use text_colorizer::*;
 
 fn replace(target: &str, replacement: &str, text: &str) -> Result<String, regex::Error> {
     let regex = Regex::new(target)?;
 
-    Ok(regex.replace_all(text, replacement).to_string());
+    Ok(regex.replace_all(text, replacement).to_string())
 }
 
 fn print_usage() {
-    eprintln!("{} - change occurrences of one string into another", "quickreplace".green());
+    eprintln!(
+        "{} - change occurrences of one string into another",
+        "quickreplace".green()
+    );
     eprintln!("Usage: quickreplace <target> <repalcement> <INPUT> <OUTPUT>");
 }
 
@@ -19,16 +22,20 @@ fn parse_args() -> Arguments {
 
     if args.len() != 4 {
         print_usage();
-        eprintln!("{} wrong number of args: expected 4 args, got {}", "Error:".red().bold(), args.len());
+        eprintln!(
+            "{} wrong number of args: expected 4 args, got {}",
+            "Error:".red().bold(),
+            args.len()
+        );
         std::process::exit(1);
     }
 
-     Arguments {
-         target: args[0].clone(),
-         replacement: args[1].clone(),
-         filename: args[2].clone(),
-         output: args[3].clone(),
-     }
+    Arguments {
+        target: args[0].clone(),
+        replacement: args[1].clone(),
+        filename: args[2].clone(),
+        output: args[3].clone(),
+    }
 }
 
 fn main() {
@@ -37,7 +44,12 @@ fn main() {
     let data = match fs::read_to_string(&args.filename) {
         Ok(v) => v,
         Err(e) => {
-            eprintln!("{} failed to write to file '{}': {:?}", "Error:".red().bold(), args.filename, e);
+            eprintln!(
+                "{} failed to write to file '{}': {:?}",
+                "Error:".red().bold(),
+                args.filename,
+                e
+            );
             std::process::exit(1);
         }
     };
@@ -45,20 +57,27 @@ fn main() {
     let replaced_data = match replace(&args.target, &args.replacement, &data) {
         Ok(v) => v,
         Err(e) => {
-            eprintln!("{} failed to replace the following replacement: {:?}", "Error:".red().bold(), e);
+            eprintln!(
+                "{} failed to replace the following replacement: {:?}",
+                "Error:".red().bold(),
+                e
+            );
             std::process::exit(1);
         }
     };
 
-        match fs::write(&args.output, &data) {
-        Ok(_) => {},
+    match fs::write(&args.output, &data) {
+        Ok(_) => {}
         Err(e) => {
-            eprintln!("{} failed to write to file '{}': {:?}",
-                "Error:".red().bold(), args.filename, e);
+            eprintln!(
+                "{} failed to write to file '{}': {:?}",
+                "Error:".red().bold(),
+                args.filename,
+                e
+            );
             std::process::exit(1);
         }
     }
-
 }
 
 #[derive(Debug)]
