@@ -14,7 +14,7 @@ fn print_usage() {
         "{} - change occurrences of one string into another",
         "quickreplace".green()
     );
-    eprintln!("Usage: quickreplace <target> <repalcement> <INPUT> <OUTPUT>");
+    eprintln!("Usage: quickreplace <target> <replacement> <INPUT> <OUTPUT>");
 }
 
 fn parse_args() -> Arguments {
@@ -66,7 +66,7 @@ fn main() {
         }
     };
 
-    match fs::write(&args.output, &data) {
+    match fs::write(&args.output, &replaced_data) {
         Ok(_) => {}
         Err(e) => {
             eprintln!(
